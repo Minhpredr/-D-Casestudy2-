@@ -1,0 +1,108 @@
+@charset "UTF-8";
+body {
+  font-family: "Gotu", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  overflow: visible;
+  background-image: linear-gradient(rgba(36, 165, 182, 0.75), rgba(221, 140, 19, 0.473) 90%), url("Sách.jpg");
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+}
+.navbar input {
+  margin-top: 5px;
+  padding: 20px;
+  height: 50px;
+}
+
+.banner1 {
+  height: 100vh;
+  width: 100%;
+}
+
+.card1 {
+  padding: 200px;
+}
+
+.card1 {
+  padding: 100px;
+}
+
+.container {
+  padding: 10 20px;
+}
+
+.footer {
+  padding: 30px;
+  background-color: rgb(218, 238, 240);
+  width: 100vh;
+  height: 50vh;
+  margin-top: -20%;
+}
+.footer p {
+  text-align: start;
+  padding: auto;
+  margin-left: 50px;
+}
+
+ul li a {
+  color: chocolate;
+  text-decoration: none;
+}
+
+.footer-row {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 100px 0 20px;
+  position: relative;
+}
+
+.footer-left, .footer-right {
+  flex-basis: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: chartreuse;
+}
+
+.footer-right {
+  text-align: right;
+  padding-bottom: 20%;
+  padding-right: 32%;
+}
+
+.footer-row h1 {
+  margin: 10px 0;
+}
+
+.footer-row p {
+  line-height: 35px;
+}
+
+.material-symbols-outlined {
+  margin-top: auto;
+  width: 45px;
+}
+
+.material-symbols-outlined {
+  float: left;
+}
+
+.container-fluid .container {
+  margin-top: -60px;
+}
+
+.carousel-inner {
+  margin-top: -45px;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    height: 100%;
+    width: 320px;
+  }
+}/*# sourceMappingURL=Style.css.map */

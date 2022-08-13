@@ -1,0 +1,259 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+#banner {
+  background-image: linear-gradient(rgba(36, 165, 182, 0.75), rgba(221, 140, 19, 0.473) 90%), url("Sách.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner1 {
+  width: 100%;
+}
+
+.logo {
+  height: 140px;
+  position: absolute;
+  top: 0.1%;
+  left: 1%;
+}
+
+.banner-text {
+  text-align: center;
+  color: darkblue;
+  padding-top: 50px;
+}
+
+.banner-text h1 {
+  font-size: 130px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-text p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.banner-btn {
+  margin: 70px auto 0;
+}
+
+.banner-btn a {
+  position: relative;
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: darkblue;
+  border: 0.5px solid rgb(102, 13, 13);
+  z-index: 1;
+  transition: color 0.7s;
+}
+
+.banner-btn a span {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 10;
+  background: white;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.banner-btn a :hover span {
+  width: 100%;
+}
+
+.banner-btn a:hover {
+  color: chocolate;
+  background-color: bisque;
+  border-color: crimson;
+}
+
+.About {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.About h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.About h2 {
+  font-size: 30px;
+  float: left;
+  padding: 20px;
+  margin-right: -5%;
+}
+.About p {
+  margin-top: 60px;
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+}
+.About .nam {
+  margin-left: 5%;
+  margin-top: 30px;
+}
+
+.book p {
+  float: right;
+  padding: 70px;
+  margin-top: auto;
+  box-sizing: border-box;
+  width: 50%;
+}
+.book h1 {
+  padding: 20px;
+  font-size: 35px;
+}
+
+.testimonial h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  box-shadow: 1px 10px black;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: translateY(10%);
+}
+
+#service {
+  width: 100%;
+  padding: 70px 0;
+  background: rgb(8, 184, 190);
+}
+
+.service-box {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.single-service {
+  flex-basis: 48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+  position: relative;
+}
+
+.single-service img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(rgba(36, 165, 182, 0.75), rgba(221, 140, 19, 0.473) 90%);
+  opacity: 0;
+  transition: 1s;
+}
+
+.single-service:hover .overlay {
+  opacity: 1;
+}
+
+.title-text {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  padding: -10px;
+}
+
+.service-desc {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+}
+
+hr {
+  background-color: #fff;
+  height: 2px;
+  border: 0;
+  margin: 15px auto;
+  width: 60%;
+}
+
+.service-desc p {
+  font-size: 14px;
+}
+
+.single-service:hover .service-desc {
+  bottom: 40%;
+  opacity: 1;
+}
+
+.footer {
+  padding: 30px;
+  background-color: rgb(218, 238, 240);
+  width: 100vh;
+  height: 50vh;
+  margin-top: -20%;
+}
+.footer p {
+  text-align: start;
+  padding: auto;
+  margin-left: 50px;
+}
+
+ul li a {
+  color: chocolate;
+  text-decoration: none;
+}
+
+.footer-row {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 100px 0 20px;
+  position: relative;
+  margin-top: 20px;
+  box-shadow: 2px 5px black;
+}
+
+.footer-left, .footer-right {
+  flex-basis: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: chartreuse;
+}
+
+.footer-right {
+  text-align: right;
+  padding-bottom: 20%;
+  padding-right: 32%;
+}
+
+.footer-row h1 {
+  margin: 10px 0;
+}
+
+.footer-row p {
+  line-height: 35px;
+}/*# sourceMappingURL=style3.css.map */

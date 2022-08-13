@@ -1,0 +1,27 @@
+body {
+  font-family: 'Gotu', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  overflow: visible;
+  color: chocolate;
+  background-image: linear-gradient( rgba(36, 165, 182, 0.75), rgba(221, 140, 19, 0.473) 90%), url('Sách.jpg' ) ;
+  background-position: center;
+}
+.banner{
+  text-align: center;
+  margin-top: 15%;
+  color: bisque;
+  button{
+    border-style: inset;
+    border: 20px;
+    padding: 15px;
+    transition: 0.5s;
+    border-radius: 20px;
+    background-color: chocolate;
+  }
+  button:hover{
+    background-color: rgb(190, 10, 121);
+  }
+  a{text-decoration: none}
+  
+}
